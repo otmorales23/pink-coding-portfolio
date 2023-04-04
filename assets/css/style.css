@@ -38,6 +38,13 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace;
+    color:#ffffff
+}
+
 p {
     font-size: 20px;
 }
@@ -62,7 +69,19 @@ p {
     float: left;
 }
 
-.ollie h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+
+.footer {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.footer li {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    list-style-type: none;
+}
+
