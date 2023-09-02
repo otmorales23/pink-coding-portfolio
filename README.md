@@ -1,17 +1,31 @@
-# Pink-Coding-Portfolio
+![Badge](https://img.shields.io/badge/license-MIT-pink)
+  
+  # Coding Portfolio
 
-A pink-themed portfolio of works I have completed during my coding bootcamp.
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Email](#email)
+  * [Github](#github)
+  * [License](#license)
 
+  ## Description
+  A simple, pink-themed, HTML-based portfolio, featuring my previous coding work and methods to reach me. 
 
-## User Story
-As a coder,
+  ![Coding Portfolio](assets/portfolio.png)
 
-I want to save my coding projects in one place,
- So that I can easily send/share them with anyone who wants to see examples of applications I have completed. 
+  ## Installation
+  Click the link in this ReadMe to open the webpage in your browser.
 
-## Usage
-To use this portfolio, use the navigation links to see information about myself, my projects and how to contact me. Should you have any questions feel free to email me at the email provided on the site. 
+  ## Link To Portfolio
+  [Click here to open the portfolio](https://otmorales23.github.io/pink-coding-portfolio/)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+  ## Email
+  If you have any questions please don't hesitate to reach out to me via email at oliverwills0227@gmail.com
 
+  ## GitHub
+  [Click here to see my GitHub profile](https://github.com/otmorales23)
+
+  
+  ## License 
+    This project is licensed with MIT
