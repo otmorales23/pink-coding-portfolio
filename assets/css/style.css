@@ -5,18 +5,24 @@
 }
 
 body {
-    background-color: #E4CAFF;
+    background-color: #8c67b4;
 }
 
 .header {
     padding: 20px;
     font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-    background-color: #E4CAFF;
+    background-color: #8c67b4;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 40px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: violet;
 }
 
 .header nav {
@@ -26,21 +32,29 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     list-style-type: none;
+    
 }
 
 .header nav li {
     display: inline-block;
     margin-left: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: violet;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    margin-bottom: 15px;
 }
 
 h2 {
-    margin-bottom: 20px;
-    font-size: 32px;
+    margin-bottom: 7px;
+    font-size: 35px;
     font-family:'Courier New', Courier, monospace;
     color:#ffffff
 }
@@ -48,8 +62,10 @@ h2 {
 p {
     font-size: 20px;
 }
+
 .content {
     display: inline-block;
+    flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -57,16 +73,41 @@ p {
 .ollie {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     font-family:'Courier New', Courier, monospace;
     background-color: #FF6F98;
     color: #ffffff
 }
 
+
 .ollie img {
     margin-right: 25px;
     max-height: 200px;
+    width: 169px;
+    height: 200px;
     float: left;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+
+.examples img {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    width: 350px; 
+    height: 250px; 
+    border-width: 3px;
+    border-style: solid;
+    border-color: violet;
 }
 
 
@@ -74,6 +115,7 @@ p {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .footer li {
@@ -82,6 +124,7 @@ p {
     float: right;
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
+    color: pink;
     list-style-type: none;
 }
 
